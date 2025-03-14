@@ -1,0 +1,3 @@
+Launched t2.micro EC2 instance.
+Installed Nginx, accessed "Welcome" page at http://<public-ip>.
+
