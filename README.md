@@ -2,7 +2,7 @@
 Laynie Tierney’s CI/CD starship—5mo DevSecOps + 3yr full-stack at warp speed!  
 
 ## Mission  
-Engage Jenkins to streamline workflows—launched Day 1, accelerating into multi-stage orbits. Companion craft: [fast-pipeline-actions](https://github.com/lvtierne/fast-pipeline-actions) (GitHub Actions).  
+Engage Jenkins to streamline workflows—launched Day 1, accelerating into multi-stage orbits. Companion craft: [fast-pipeline-actions](https://github.com/lvtierne/fast-pipeline-actions).  
 
 ## Systems  
 - ⚡ **Jenkins Core**: Local warp drive online—`Jenkinsfile` beaming "Started!".  
@@ -11,17 +11,18 @@ Engage Jenkins to streamline workflows—launched Day 1, accelerating into multi
 ## Launch Sequence  
 1. `git clone https://github.com/lvtierne/fast-pipeline`  
 2. Beam up `Jenkinsfile`—ignite locally via `http://localhost:8080/`.  
-3. Warp to `http://<public-ip>`—Nginx "Welcome" live on `fast-ec2`.  
+3. Warp to `http://54.82.122.243:5000`—Flask app live on `fast-ec2`.  
 
 ## Stardate Log  
 ### Day 1: March 12-13, 2025  
 - **Engaged:** Installed Jenkins locally (Windows 11), ran "Started!" pipeline in `FastPipeline`.  
-- **Warped:** Reused `fast-ec2` from `fast-pipeline-actions`—Nginx at `http://<public-ip>`.  
+- **Warped:** Reused `fast-ec2` from `fast-pipeline-actions`—Nginx at `http://54.82.122.243`.  
 - **Notes:** Swapped Actions for Jenkins—deeper CI/CD thrusters!  
 
-### Day 2: March 13, 2025 (In Progress)  
-- **Engaged:** Jenkins pipeline with `Jenkinsfile`—"Started!" confirmed.  
-- **Next:** Flask app + EC2 deploy (5:00-10:00 PM).  
+### Day 2: March 13, 2025  
+- **Engaged:** Built Flask "Hello World" app—Jenkins builds it locally.  
+- **Warped:** Deployed to `fast-ec2` (port 5000)—`http://54.82.122.243:5000/`.  
+- **Notes:** Manual SCP with `pscp`, port 5000 opened—automation on Day 4!  
 
 ## Vibe  
 *“Warp speed to Mars—DOGE thrusters on!”*  
